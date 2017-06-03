@@ -7,21 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C8D3FE330598A547927114C /* Pods_VocaStudy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3CB8741E13218B72D27E804 /* Pods_VocaStudy.framework */; };
 		4A7CAD781ED5B67700C9F70F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A7CAD771ED5B67700C9F70F /* AppDelegate.swift */; };
-		4A7CAD7A1ED5B67700C9F70F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A7CAD791ED5B67700C9F70F /* ViewController.swift */; };
 		4A7CAD7D1ED5B67700C9F70F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A7CAD7B1ED5B67700C9F70F /* Main.storyboard */; };
 		4A7CAD7F1ED5B67700C9F70F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A7CAD7E1ED5B67700C9F70F /* Assets.xcassets */; };
 		4A7CAD821ED5B67700C9F70F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A7CAD801ED5B67700C9F70F /* LaunchScreen.storyboard */; };
+		4A7CAD8A1ED5B69F00C9F70F /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A7CAD891ED5B69F00C9F70F /* TableViewController.swift */; };
+		4A979E451ED961D300E74670 /* ItemData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A979E441ED961D300E74670 /* ItemData.swift */; };
+		4AA59A191ED96C1200B823AF /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA59A181ED96C1200B823AF /* Common.swift */; };
+		4AA59A1D1ED97FA100B823AF /* PlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA59A1C1ED97FA100B823AF /* PlayViewController.swift */; };
+		4AA59A1F1EDE922C00B823AF /* next_img.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AA59A1E1EDE922C00B823AF /* next_img.png */; };
+		4AA59A211EDE923500B823AF /* previous_img.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AA59A201EDE923500B823AF /* previous_img.png */; };
+		4AA59A231EDEA56D00B823AF /* v2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AA59A221EDEA56D00B823AF /* v2.jpg */; };
+		4AA59A251EDEA58500B823AF /* v2_icon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4AA59A241EDEA58500B823AF /* v2_icon.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4A7CAD741ED5B67700C9F70F /* VocaStudy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VocaStudy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A7CAD771ED5B67700C9F70F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4A7CAD791ED5B67700C9F70F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4A7CAD7C1ED5B67700C9F70F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4A7CAD7E1ED5B67700C9F70F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4A7CAD811ED5B67700C9F70F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4A7CAD831ED5B67700C9F70F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A7CAD891ED5B69F00C9F70F /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		4A979E441ED961D300E74670 /* ItemData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemData.swift; sourceTree = "<group>"; };
+		4AA59A181ED96C1200B823AF /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		4AA59A1C1ED97FA100B823AF /* PlayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayViewController.swift; sourceTree = "<group>"; };
+		4AA59A1E1EDE922C00B823AF /* next_img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = next_img.png; sourceTree = "<group>"; };
+		4AA59A201EDE923500B823AF /* previous_img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = previous_img.png; sourceTree = "<group>"; };
+		4AA59A221EDEA56D00B823AF /* v2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = v2.jpg; sourceTree = "<group>"; };
+		4AA59A241EDEA58500B823AF /* v2_icon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = v2_icon.jpg; sourceTree = "<group>"; };
+		64D5CF898AC9BC36413EC846 /* Pods-VocaStudy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VocaStudy.release.xcconfig"; path = "Pods/Target Support Files/Pods-VocaStudy/Pods-VocaStudy.release.xcconfig"; sourceTree = "<group>"; };
+		B3CB8741E13218B72D27E804 /* Pods_VocaStudy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VocaStudy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C136B2F539E4F304D07201E6 /* Pods-VocaStudy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VocaStudy.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VocaStudy/Pods-VocaStudy.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C8D3FE330598A547927114C /* Pods_VocaStudy.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +59,8 @@
 			children = (
 				4A7CAD761ED5B67700C9F70F /* VocaStudy */,
 				4A7CAD751ED5B67700C9F70F /* Products */,
+				B549B912D999798F0B6E279B /* Pods */,
+				66DA4A68D92B27E2AB7756CC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +75,38 @@
 		4A7CAD761ED5B67700C9F70F /* VocaStudy */ = {
 			isa = PBXGroup;
 			children = (
-				4A7CAD771ED5B67700C9F70F /* AppDelegate.swift */,
-				4A7CAD791ED5B67700C9F70F /* ViewController.swift */,
-				4A7CAD7B1ED5B67700C9F70F /* Main.storyboard */,
+				4AA59A241EDEA58500B823AF /* v2_icon.jpg */,
+				4AA59A221EDEA56D00B823AF /* v2.jpg */,
 				4A7CAD7E1ED5B67700C9F70F /* Assets.xcassets */,
-				4A7CAD801ED5B67700C9F70F /* LaunchScreen.storyboard */,
 				4A7CAD831ED5B67700C9F70F /* Info.plist */,
+				4A7CAD801ED5B67700C9F70F /* LaunchScreen.storyboard */,
+				4A7CAD771ED5B67700C9F70F /* AppDelegate.swift */,
+				4A7CAD7B1ED5B67700C9F70F /* Main.storyboard */,
+				4A7CAD891ED5B69F00C9F70F /* TableViewController.swift */,
+				4A979E441ED961D300E74670 /* ItemData.swift */,
+				4AA59A181ED96C1200B823AF /* Common.swift */,
+				4AA59A1C1ED97FA100B823AF /* PlayViewController.swift */,
+				4AA59A1E1EDE922C00B823AF /* next_img.png */,
+				4AA59A201EDE923500B823AF /* previous_img.png */,
 			);
 			path = VocaStudy;
+			sourceTree = "<group>";
+		};
+		66DA4A68D92B27E2AB7756CC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B3CB8741E13218B72D27E804 /* Pods_VocaStudy.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B549B912D999798F0B6E279B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C136B2F539E4F304D07201E6 /* Pods-VocaStudy.debug.xcconfig */,
+				64D5CF898AC9BC36413EC846 /* Pods-VocaStudy.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +116,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4A7CAD861ED5B67700C9F70F /* Build configuration list for PBXNativeTarget "VocaStudy" */;
 			buildPhases = (
+				6E758B15AFD98E157012B4A0 /* [CP] Check Pods Manifest.lock */,
 				4A7CAD701ED5B67700C9F70F /* Sources */,
 				4A7CAD711ED5B67700C9F70F /* Frameworks */,
 				4A7CAD721ED5B67700C9F70F /* Resources */,
+				E0EDAC5714FC2CCDC793E7E0 /* [CP] Embed Pods Frameworks */,
+				D5BD4A00B97A62AFC3D29C8F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -96,6 +144,7 @@
 				TargetAttributes = {
 					4A7CAD731ED5B67700C9F70F = {
 						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 3LKUPW7U8G;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -125,18 +174,73 @@
 			files = (
 				4A7CAD821ED5B67700C9F70F /* LaunchScreen.storyboard in Resources */,
 				4A7CAD7F1ED5B67700C9F70F /* Assets.xcassets in Resources */,
+				4AA59A1F1EDE922C00B823AF /* next_img.png in Resources */,
+				4AA59A211EDE923500B823AF /* previous_img.png in Resources */,
 				4A7CAD7D1ED5B67700C9F70F /* Main.storyboard in Resources */,
+				4AA59A231EDEA56D00B823AF /* v2.jpg in Resources */,
+				4AA59A251EDEA58500B823AF /* v2_icon.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6E758B15AFD98E157012B4A0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D5BD4A00B97A62AFC3D29C8F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VocaStudy/Pods-VocaStudy-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E0EDAC5714FC2CCDC793E7E0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VocaStudy/Pods-VocaStudy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4A7CAD701ED5B67700C9F70F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4A7CAD7A1ED5B67700C9F70F /* ViewController.swift in Sources */,
+				4AA59A191ED96C1200B823AF /* Common.swift in Sources */,
+				4AA59A1D1ED97FA100B823AF /* PlayViewController.swift in Sources */,
+				4A7CAD8A1ED5B69F00C9F70F /* TableViewController.swift in Sources */,
+				4A979E451ED961D300E74670 /* ItemData.swift in Sources */,
 				4A7CAD781ED5B67700C9F70F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,8 +362,10 @@
 		};
 		4A7CAD871ED5B67700C9F70F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C136B2F539E4F304D07201E6 /* Pods-VocaStudy.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3LKUPW7U8G;
 				INFOPLIST_FILE = VocaStudy/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.study.VocaStudy;
@@ -270,8 +376,10 @@
 		};
 		4A7CAD881ED5B67700C9F70F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64D5CF898AC9BC36413EC846 /* Pods-VocaStudy.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3LKUPW7U8G;
 				INFOPLIST_FILE = VocaStudy/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.study.VocaStudy;
@@ -299,6 +407,7 @@
 				4A7CAD881ED5B67700C9F70F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
